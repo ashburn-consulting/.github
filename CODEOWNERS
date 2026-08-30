@@ -1,0 +1,10 @@
+# Review ownership for this repository only.
+# Each repository in the organization carries its own CODEOWNERS.
+# Later rules override earlier ones; the last matching pattern wins.
+
+# Everything here is organization policy — the engineering team reviews it.
+*                        @ashburn-consulting/devs
+
+# CI and automation are owned by the engineering team as well.
+/.github/workflows/      @ashburn-consulting/devs
+/workflow-templates/     @ashburn-consulting/devs
